@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://i.pinimg.com/736x/a2/f7/b7/a2f7b77e1666159c58e489818ac56955.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    color: azure;
+    font-size: 30px;
+    padding-left: 5%;
+    font-family: "Raleway", sans-serif;
+}
+
+.nav-link {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 3%;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 18px;
+    transition: all 0.3s ease; /* Smooth transition for color and background */
+}
+
+.nav-link li a:hover {
+    color: #3498db; /* Change text color */
+    background-color: orange; /* Add background highlight */
+    padding: 5px; /* Slightly increase padding */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.hero-section {
+    display: flex; /* Use flexbox to align children side by side */
+    justify-content: space-between; /* Space between left and right sections */
+    align-items: center; /* Center items vertically */
+    max-width: 100%; /* Ensure it takes full width */
+    padding: 20px; /* Add some padding */
+   
+}
+
+.left {
+    flex: 1; /* Allow left section to take available space */
+    margin-right: 20px; /* Add some space between left and right */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 50%;
+    padding-left: 40px;
+    padding-bottom: 14%;
+}
+
+.left h3 {
+    color: white;
+    font-size: 30px;
+    padding-top: 20%;
+    font-family: "Oswald", serif;
+}
+
+h3 span {
+    color: RED; /* Tomato color */
+    font-size: 50px;
+}
+
+.left h1 {
+    color: white;
+    font-family: "Oswald", serif;
+    padding-top: 20px;
+}
+
+h1 span {
+    color: red;
+    font-size: 50px;
+}
+
+.left p {
+    font-family: "Oswald", serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.right {
+    width: 400px; /* Fixed width for the registration form */
+    background-color: rgb(204, 204, 209);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+ max-width: 50%;
+ margin: 5% 10%;
+}
+
+.right h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.right label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.right input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.right button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.right button:hover {
+    background-color: #45a049;
+}

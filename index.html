@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Evenex</div>
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Schedule</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Elements</a></li>
+            <i class="ri-twitter-x-line" aria-label="Twitter"></i>
+            <i class="ri-linkedin-box-line" aria-label="LinkedIn"></i>
+            <i class="ri-menu-line" aria-label="Menu"></i>
+        </ul>
+    </nav>
+    <!--hero-section-->
+    <div class="hero-section">
+        <div class="left">
+            <h3>UPCOMING NEW <span>EVENT</span> 2025</h3>
+            <h1>Digital <span>Tech</span> Conference</h1>
+            <p>Expert technology speakers discuss emerging technology and trends in information management, big data, AI, Cyber Security.</p>
+            <p>Conference: 01/1/2025, 12:00 PM</p>
+        </div>
+        
+        <div class="right">
+            <h2>Registration Form</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <label for="company">Company</label>
+                <input type="text" id="company" name="company" placeholder="Enter your company name" required>
+
+                
+                <button type="submit">Register</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
